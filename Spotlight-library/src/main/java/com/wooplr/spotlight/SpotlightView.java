@@ -652,6 +652,7 @@ public class SpotlightView extends FrameLayout {
                     public void onAnimationEnd(Animation animation) {
                         if(enableDismissAfterShown)
                             dismissOnTouch = true;
+                        listener.onFinishedDrawingSpotlight();
                     }
 
                     @Override

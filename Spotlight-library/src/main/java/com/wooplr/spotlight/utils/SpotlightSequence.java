@@ -79,6 +79,12 @@ public class SpotlightSequence {
                     public void onUserClicked(String s) {
                         playNext();
                     }
+
+                    @Override
+                    public void onFinishedDrawingSpotlight()
+                    {
+
+                    }
                 })
                 .enableDismissAfterShown(true);
         queue.add(builder);
@@ -106,6 +112,12 @@ public class SpotlightSequence {
                     @Override
                     public void onUserClicked(String s) {
                         playNext();
+                    }
+
+                    @Override
+                    public void onFinishedDrawingSpotlight()
+                    {
+
                     }
                 })
                 .enableDismissAfterShown(true);

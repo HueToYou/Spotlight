@@ -8,4 +8,5 @@ package com.wooplr.spotlight.utils;
 public interface SpotlightListener {
 
     void onUserClicked(String spotlightViewId);
+    void onFinishedDrawingSpotlight();
 }
